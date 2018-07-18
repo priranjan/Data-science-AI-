@@ -1,6 +1,6 @@
-# Data-science Project 
+# Housing-Sale-Price-Prediction
 
-Housing-Sale-Price-Prediction
+
 
 "Buying a house is a stressful thing."
 
