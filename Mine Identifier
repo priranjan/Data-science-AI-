@@ -1,3 +1,0 @@
-The Naval Mine Identifier Project Basically reads sonal input signal and predicts if the object is a Mine or a Rock . 
-The Model is a Neural network consists of  four hidden layers .With Relu and Sigmoid Activation function .
-Pandas are used for Input dataset manipulation .
