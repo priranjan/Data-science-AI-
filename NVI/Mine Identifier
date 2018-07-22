@@ -1,1 +1,6 @@
 Naval Mine Prediction.
+
+The Naval Mine identifier analyses sonar data and predicts if its a mine or a stone . 
+In this project , neural network is used and four hidden layers are used. learning rate is 0.3 and 0.03 and program respose for both the 
+learning rate  .
+
