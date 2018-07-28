@@ -1,0 +1,3 @@
+
+This uses a dataset as attached in my github to detect Spam Email . I have used Support Vector Machine and has actually used google colab 
+to code . I have shown all the performance metrics to see how effecient the model is for the data set.
