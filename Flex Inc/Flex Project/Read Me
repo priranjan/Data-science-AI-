@@ -1,0 +1,43 @@
+Flex Deep Learning Project
+GROUP AVIK 
+ 
+A: SUPPORT PROJECT TITLE: Deep learning framework analysis  
+
+B: BASE PROJECT TITLE: Flex Deep Learning Project
+ Problem Description: The goal of our project is to use machine learning algorithms/models and come up with a novel approach towards predicting the best possible combination of hardware features for a computer system, (eg: microprocessor/ memory specs, software specs etc) such that the baseline and peak scores measured on a certain benchmark program is maximized. The problem involves predictive analysis and optimization of hyper parameter for high accuracy output. The “baseline score” is the target value. The hardware features is the independent variables and the baseline is the dependent variable.
+
+Background: For Flex CEC engineering, needs to predict server or cluster application performance while meeting datacenter OpEx and CapEx constraints is a complex part of “right sizing” a solution for a Flex customer. An analysis is needed to verify the result with the expectations. Doing it manually takes time and this void is filled by this model which predicts part of the analysis that is the performance that can be expected with a set of input configuration.
+
+Solution & Approach: The solution involves training a Deep learning model that will take input, the machine parameters and gives the baseline as output and also maximize accuracy.
+The approach is given below:
+1.	Finalize the dataset determine preliminary set of Features and Labels
+2.	Save the dataset into appropriate data frame after labelling required fields
+3.	Define the hyper parameters
+4.	Define the model
+5.	Train Model and tune model.
+6.	Define loss function and optimization function (Implement back propagation if needed)
+7.	Validate the model if necessary
+8.	Change the feature and or learning rate as necessary
+9.	Test the Model.
+10.	The result and the details will be uploaded in website and advertisement made.
+
+ Deep Learning Engine Summary 
+The model used in this project is  Bayesian or LSTM model using specifically TensorFlow frame work as required by User. Ability to infer either the score from a given HW configuration or infer a HW configuration from a given score is required. We will decide which direction to take as we move into developing the model in future. 
+
+Data Sets Info: The data source is from the SPECint® 2006 benchmark package and the SPEC CPU® 2017 benchmark package. It contains SPEC's next-generation, industry-standardized, CPU intensive suites for measuring and comparing compute intensive performance, stressing a system's processor, memory subsystem and compiler.
+Result & Performance: The model generated will be saved and then this model will take the input the features parameters and give the prediction of base value. The performance evaluation will be done using Confusion matrix and Confidence interval.
+Progress Milestone:
+
+Initial Design: The initial features will be tested with different type of concerned models and hyperparameters be tweaked to optimize the accuracy of the model. 
+
+Software Used: PyCharm, Anaconda, Tensor flow and Numpy, Pandas, Sklearn Package
+
+Reading: Various ML concepts and models, Chipset specification and effect of individual parameter on performance of the processor .
+
+
+Learning Experience: Pre Project Knowledge :  Basic knowledge on  Numpy , CNN, Bayesian , LSTM model , No experience in development of models or ML programming, Dataset Finalization, Framework and algorithms.
+
+Post Project Knowledge: Deep Understanding of all the above mentioned topics along with better understanding of mapping learned theory with practical application. Understanding of developing deep learning model from scratch and training, testing it on a real world problem dataset.
+
+  
+
